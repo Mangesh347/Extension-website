@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome — Claude Enhancer Pro</title>
+  <meta name="description" content="Thank you for upgrading to Claude Enhancer Pro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark">CE</span>
+        <span>Claude Enhancer</span>
+      </a>
+      <a class="btn btn-white" href="https://claude.ai/" target="_blank" rel="noopener">Open Claude</a>
+    </div>
+  </header>
+
+  <main class="wrap" style="padding:64px 0;max-width:640px">
+    <h1 style="font-size:2rem;font-weight:800;letter-spacing:-0.03em;margin-bottom:12px">You are Pro</h1>
+    <p style="color:var(--muted);font-size:1rem;margin:0 0 28px">
+      Thanks for upgrading to <strong>Claude Enhancer Pro</strong>. Open Claude with your billing email — Pro unlocks automatically.
+    </p>
+
+    <ol style="padding-left:1.2em;line-height:1.7;color:#d4d4d4;margin-bottom:36px">
+      <li>Check your inbox for the payment receipt</li>
+      <li>Open Claude.ai with the same billing email</li>
+      <li>Enjoy unlimited exports, folders, and the full Pro toolkit</li>
+    </ol>
+
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <a class="btn btn-white" href="https://claude.ai/" target="_blank" rel="noopener">Open Claude</a>
+      <a class="btn btn-ghost" href="/">Back to home</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-bottom" style="border:0;padding-top:0">
+        <span>© <span id="year"></span> Claude Enhancer · Fenwick Labs</span>
+        <a href="support.html" style="color:#d4d4d4">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
